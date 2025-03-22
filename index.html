@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio DIO </title>
+</head>
+<body>
+    <h1>Introdução ao HTML <img src="imagens/logo_html.webp" width="30px" height="30px"> </h1>
+    <hr/>
+    <ol>
+        <li><a href="#Definição"> O que é HTML?</a></li>
+        <li><a href="#Estrutura"> Estrutura básica </a></li>
+        <li><a href="#Tags"> Tags</a></li>
+        <li><a href="#Atributos">Atributos</a></li>
+        <li><a href="#textos"> Textos</a></li>
+        <li><a href="#Listas"> Listas</a></li>
+        <li><a href="#Links"> Links</a></li>
+    </ol>
+    <hr/>
+
+    <h2 id="Definição">O que é HTML?</h2>
+        <p>HTML (HyperText Markup Language) é uma linguagem de marcação utilizada para criar e estruturar o conteúdo de páginas na web. Ele não é uma linguagem de programação, pois não executa lógica ou cálculos, mas sim organiza informações para serem exibidas nos navegadores.</p>
+        <p>O termo HyperText refere-se à capacidade de criar links que conectam diferentes páginas ou partes de um documento, enquanto Markup Language significa que ele usa marcas (ou tags) para definir a estrutura e o estilo do conteúdo.</p>
+        <p>O HTML é a base de qualquer página da web. Ele define o que aparecerá na tela e como o conteúdo será estruturado. Junto com CSS e JavaScript, forma o trio principal para o desenvolvimento de sites dinâmicos e interativos.</p>
+    <hr/>
+    
+    <h2 id="Estrutura"> Estrutura Basica do HTML - TAGS </h2>
+        <p><img src="imagens/estrutura_basica.PNG"></p>
+        <h3 id="Tags">Quebra da Estrutura HTML:</h3>
+            <ol>
+                <li>Declaração do Tipo de Documento (DOCTYPE html)</li>
+                    <p>Informa ao navegador que o documento está usando HTML5. É obrigatório no início de todo arquivo HTML para garantir a compatibilidade.</p>
+
+                <li>Tag <strong>"html"</strong></li>
+                    <p>É a raíz de todo documento HTML. Todo conteudo da pagina deve estar dentro dessa tag. Nela pode conter atributos, como "lang" para definir o idioma.</p>
+                    <p><img src="imagens/tag_html.PNG"></p>
+                <li>Tag <strong>"head"</strong></li>
+                    <p>Contém informações e metadados sobre o documento (não são exibidos diretamente na página). Inclui título, codificação de caracteres, links para CSS, scripts e mais.</p>
+                    <p><img src="imagens/tag_head.PNG"></p>
+                <li>Tag <strong>"body"</strong></li>
+                    <p>Contém o conteúdo visível da página (textos, imagens, links, botões, etc.). Tudo o que aparecerá na tela do usuário fica dentro dessa tag.</p>
+                    <p><img src="imagens/tag_body.PNG"></p>
+            </ol>  
+            <hr/>
+
+        <h2 id="Atributos">Atributos</h2>
+        <p>Atributos são informações adicionais que as tags HTML podem ter para modificar seu comportamento ou aparência. Eles sempre aparecem na tag de abertura e têm o formato nome="valor".</p>
+        <h3>Exemplos:</h3>
+            <ol>
+                <li><strong>href:</strong></li>
+                    <p>Define o endereço de um link.</p>
+                <li><strong>target:</strong></li>
+                    <p>Abre o link em uma nova aba.</p>
+                <li><strong>src:</strong></li>
+                    <p>Fonte da imagem.</p>
+                <li><strong>alt:</strong></li>
+                    <p>Texto alternativo para a imagem.</p>
+                <li><strong>style:</strong></li>
+                    <p>Aplica CSS diretamente na tag</p>
+            </ol>
+            <hr/>
+
+        <h2 id="textos">Textos</h2>
+        <p>Em HTML, os textos podem ser estilizados e organizados com diferentes tags.</p>
+        <h3>Exemplos:</h3> 
+            <ol>
+                <li><strong>Tag "p"</strong></li>
+                    <p>Cria um paragrafo.</p>
+                <li><strong>Tags h1 ~ h6</strong></li>
+                    <p>Criam títulos e subtítulos(do maior ao menor).</p>
+                <li><strong>Tag "strong"</strong></li>
+                    <p>Texto em negrito com ênfase</p>
+                <li><strong>Tag "mark"</strong></li>
+                    <p>Texto destacado(marcado)</p>
+                </ol>
+                <hr/>
+            
+            <h2 id="Listas">Listas</h2>
+                <p>As listas organizam itens em sequência, podendo ser numeradas ou com marcadores.</p>   
+                <h3>Exemplos:</h3>
+                <ol>
+                    <li><strong>Lista ordenada: "ol"</strong></li>
+                        <p>Numerada (1, 2, 3...).</p>
+                    <li><strong>Lista não ordenada: "ul"</strong></li>
+                        <p>Com marcadores (pontos, quadrados...).</p>
+                    <li><strong>Lista de definição: "dl,dt,dd"</strong></li>
+                        <p>Lista de termos e descrições</p>
+                </ol>
+                <hr/>
+
+            <h2 id="Links">Links</h2>
+            <p>Os links são usados para navegar entre páginas ou recursos. São criados com a tag "a" e o atributo href para definir o destino.</p>    
+                <h3>Exemplos:</h3>
+                <ol>
+                    <li><strong>Href:</strong></li>
+                        <p>URL para onde o link aponta.</p>
+                    <li><strong>Target=blak</strong></li>
+                        <p>Abre o link em uma nova aba</p>
+                </ol>
+</body> 
+</html>
