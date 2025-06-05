@@ -35,4 +35,16 @@ body {
 .footer {
     background-color:  #C1F0F6;
     min-height: 150px;
+    text-align: center;
 }
+
+table thead th {
+    background-color: azure;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: azure;
+}
+
+
+
