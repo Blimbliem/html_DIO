@@ -8,6 +8,6 @@ Na segunda aula ele explica o conceito de client no linguajar da web. O lado do 
 
 Na terceira aula ele ressalta sobre o conceito de servidores, onde basicamente, são aqueles que servem conteúdos para o cliente consumir. Servidores tendem a ser computadores mais robustos, pois exigem mais capacidade de processamento.
 
-Para finalizar, passamos por cima de algumas linguagens de programação, as mais comuns para programação server-side (back-end) ou client-side (front-ent). E ressalta aquilo que talvez seja uma das inforações mais importantes: HTML não é uma linguagem de progração!
+Para finalizar, passamos por cima de algumas linguagens de programação, as mais comuns para programação server-side (back-end) e client-side (front-ent). E ressaltou também aquilo que talvez seja uma das informações mais importantes: HTML não é uma linguagem de programação. Pórem, é uma ferramenta poderosa e sem ela a internet não funcionaria do jeito que a encontramos.
 
 
